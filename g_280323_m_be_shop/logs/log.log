@@ -1,0 +1,307 @@
+2023-11-15T01:32:44.771+02:00  INFO 480 --- [main] d.t.g.G280323MBeShopApplication          : Starting G280323MBeShopApplication using Java 20 with PID 480 (F:\MoarStudies\g_280323_m_be_shop\target\classes started by User2013 in F:\MoarStudies\g_280323_m_be_shop)
+2023-11-15T01:32:44.787+02:00  INFO 480 --- [main] d.t.g.G280323MBeShopApplication          : No active profile set, falling back to 1 default profile: "default"
+2023-11-15T01:32:47.097+02:00  INFO 480 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-11-15T01:32:47.251+02:00  INFO 480 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 111 ms. Found 3 JPA repository interfaces.
+2023-11-15T01:32:49.211+02:00  INFO 480 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-11-15T01:32:49.226+02:00  INFO 480 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-11-15T01:32:49.227+02:00  INFO 480 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.15]
+2023-11-15T01:32:49.389+02:00  INFO 480 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-11-15T01:32:49.390+02:00  INFO 480 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4392 ms
+2023-11-15T01:32:50.092+02:00  INFO 480 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-15T01:32:50.363+02:00  INFO 480 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.13.Final
+2023-11-15T01:32:50.367+02:00  INFO 480 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-11-15T01:32:51.179+02:00  INFO 480 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-11-15T01:32:51.278+02:00  INFO 480 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-11-15T01:32:51.918+02:00  INFO 480 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4fbaa7f5
+2023-11-15T01:32:51.920+02:00  INFO 480 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-11-15T01:32:52.066+02:00  WARN 480 --- [main] org.hibernate.dialect.Dialect            : HHH000511: The 5.5.30 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 5.7.0. Check the community dialects project for available legacy versions.
+2023-11-15T01:32:54.053+02:00  INFO 480 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2023-11-15T01:32:54.056+02:00  INFO 480 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-11-15T01:32:55.034+02:00  INFO 480 --- [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2023-11-15T01:32:55.426+02:00  WARN 480 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-15T01:32:56.224+02:00  INFO 480 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-11-15T01:32:56.237+02:00  INFO 480 --- [main] d.t.g.G280323MBeShopApplication          : Started G280323MBeShopApplication in 12.722 seconds (process running for 14.112)
+2023-11-15T01:36:42.634+02:00  INFO 7324 --- [main] d.t.g.G280323MBeShopApplication          : Starting G280323MBeShopApplication using Java 20 with PID 7324 (F:\MoarStudies\g_280323_m_be_shop\target\classes started by User2013 in F:\MoarStudies\g_280323_m_be_shop)
+2023-11-15T01:36:42.639+02:00  INFO 7324 --- [main] d.t.g.G280323MBeShopApplication          : No active profile set, falling back to 1 default profile: "default"
+2023-11-15T01:36:44.244+02:00  INFO 7324 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-11-15T01:36:44.356+02:00  INFO 7324 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 98 ms. Found 3 JPA repository interfaces.
+2023-11-15T01:36:45.517+02:00  INFO 7324 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-11-15T01:36:45.528+02:00  INFO 7324 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-11-15T01:36:45.529+02:00  INFO 7324 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.15]
+2023-11-15T01:36:45.673+02:00  INFO 7324 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-11-15T01:36:45.674+02:00  INFO 7324 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2867 ms
+2023-11-15T01:36:46.000+02:00  INFO 7324 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-15T01:36:46.077+02:00  INFO 7324 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.13.Final
+2023-11-15T01:36:46.080+02:00  INFO 7324 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-11-15T01:36:46.573+02:00  INFO 7324 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-11-15T01:36:46.624+02:00  INFO 7324 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-11-15T01:36:46.904+02:00  INFO 7324 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4ff66917
+2023-11-15T01:36:46.907+02:00  INFO 7324 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-11-15T01:36:46.971+02:00  WARN 7324 --- [main] org.hibernate.dialect.Dialect            : HHH000511: The 5.5.30 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 5.7.0. Check the community dialects project for available legacy versions.
+2023-11-15T01:36:48.239+02:00  INFO 7324 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2023-11-15T01:36:48.242+02:00  INFO 7324 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-11-15T01:36:49.011+02:00  INFO 7324 --- [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2023-11-15T01:36:49.450+02:00  WARN 7324 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-15T01:36:50.948+02:00  INFO 7324 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-11-15T01:36:50.965+02:00  INFO 7324 --- [main] d.t.g.G280323MBeShopApplication          : Started G280323MBeShopApplication in 9.236 seconds (process running for 10.104)
+2023-11-15T01:37:56.309+02:00  INFO 7324 --- [http-nio-8080-exec-4] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-15T01:37:56.311+02:00  INFO 7324 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-11-15T01:37:56.314+02:00  INFO 7324 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-11-15T01:37:56.553+02:00  WARN 7324 --- [http-nio-8080-exec-4] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unexpected character ('}' (code 125)): was expecting double-quote to start field name]
+2023-11-15T01:39:51.173+02:00  WARN 7324 --- [http-nio-8080-exec-10] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' is not supported]
+2023-11-15T01:42:05.883+02:00  WARN 7324 --- [http-nio-8080-exec-9] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' is not supported]
+2023-11-15T01:45:26.279+02:00  WARN 7324 --- [http-nio-8080-exec-4] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 1451, SQLState: 23000
+2023-11-15T01:45:26.282+02:00 ERROR 7324 --- [http-nio-8080-exec-4] o.h.engine.jdbc.spi.SqlExceptionHelper   : Cannot delete or update a parent row: a foreign key constraint fails (`280323-m-be-shop-jpa`.`cart`, CONSTRAINT `fk_cart_to_customer` FOREIGN KEY (`customer_id`) REFERENCES `customer` (`customer_id`))
+2023-11-15T01:45:26.306+02:00 ERROR 7324 --- [http-nio-8080-exec-4] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.springframework.dao.DataIntegrityViolationException: could not execute statement [Cannot delete or update a parent row: a foreign key constraint fails (`280323-m-be-shop-jpa`.`cart`, CONSTRAINT `fk_cart_to_customer` FOREIGN KEY (`customer_id`) REFERENCES `customer` (`customer_id`))] [delete from customer where customer_id=?]; SQL [delete from customer where customer_id=?]; constraint [null]] with root cause
+
+java.sql.SQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`280323-m-be-shop-jpa`.`cart`, CONSTRAINT `fk_cart_to_customer` FOREIGN KEY (`customer_id`) REFERENCES `customer` (`customer_id`))
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:118) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:916) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1061) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1009) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1320) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:994) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeUpdate(ProxyPreparedStatement.java:61) ~[HikariCP-5.0.1.jar:na]
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeUpdate(HikariProxyPreparedStatement.java) ~[HikariCP-5.0.1.jar:na]
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:275) ~[hibernate-core-6.2.13.Final.jar:6.2.13.Final]
+	at org.hibernate.engine.jdbc.mutation.internal.AbstractMutationExecutor.performNonBatchedMutation(AbstractMutationExecutor.java:107) ~[hibernate-core-6.2.13.Final.jar:6.2.13.Final]
+	at org.hibernate.engine.jdbc.mutation.internal.MutationExecutorSingleNonBatched.performNonBatchedOperations(MutationExecutorSingleNonBatched.java:40) ~[hibernate-core-6.2.13.Final.jar:6.2.13.Final]
+	at org.hibernate.engine.jdbc.mutation.internal.AbstractMutationExecutor.execute(AbstractMutationExecutor.java:52) ~[hibernate-core-6.2.13.Final.jar:6.2.13.Final]
+	at org.hibernate.persister.entity.mutation.DeleteCoordinator.doStaticDelete(DeleteCoordinator.java:304) ~[hibernate-core-6.2.13.Final.jar:6.2.13.Final]
+	at org.hibernate.persister.entity.mutation.DeleteCoordinator.coordinateDelete(DeleteCoordinator.java:89) ~[hibernate-core-6.2.13.Final.jar:6.2.13.Final]
+	at org.hibernate.persister.entity.AbstractEntityPersister.delete(AbstractEntityPersister.java:2891) ~[hibernate-core-6.2.13.Final.jar:6.2.13.Final]
+	at org.hibernate.action.internal.EntityDeleteAction.execute(EntityDeleteAction.java:131) ~[hibernate-core-6.2.13.Final.jar:6.2.13.Final]
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:635) ~[hibernate-core-6.2.13.Final.jar:6.2.13.Final]
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:502) ~[hibernate-core-6.2.13.Final.jar:6.2.13.Final]
+	at org.hibernate.event.internal.AbstractFlushingEventListener.performExecutions(AbstractFlushingEventListener.java:364) ~[hibernate-core-6.2.13.Final.jar:6.2.13.Final]
+	at org.hibernate.event.internal.DefaultFlushEventListener.onFlush(DefaultFlushEventListener.java:39) ~[hibernate-core-6.2.13.Final.jar:6.2.13.Final]
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:127) ~[hibernate-core-6.2.13.Final.jar:6.2.13.Final]
+	at org.hibernate.internal.SessionImpl.doFlush(SessionImpl.java:1412) ~[hibernate-core-6.2.13.Final.jar:6.2.13.Final]
+	at org.hibernate.internal.SessionImpl.managedFlush(SessionImpl.java:485) ~[hibernate-core-6.2.13.Final.jar:6.2.13.Final]
+	at org.hibernate.internal.SessionImpl.flushBeforeTransactionCompletion(SessionImpl.java:2301) ~[hibernate-core-6.2.13.Final.jar:6.2.13.Final]
+	at org.hibernate.internal.SessionImpl.beforeTransactionCompletion(SessionImpl.java:1966) ~[hibernate-core-6.2.13.Final.jar:6.2.13.Final]
+	at org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl.beforeTransactionCompletion(JdbcCoordinatorImpl.java:439) ~[hibernate-core-6.2.13.Final.jar:6.2.13.Final]
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl.beforeCompletionCallback(JdbcResourceLocalTransactionCoordinatorImpl.java:169) ~[hibernate-core-6.2.13.Final.jar:6.2.13.Final]
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl$TransactionDriverControlImpl.commit(JdbcResourceLocalTransactionCoordinatorImpl.java:267) ~[hibernate-core-6.2.13.Final.jar:6.2.13.Final]
+	at org.hibernate.engine.transaction.internal.TransactionImpl.commit(TransactionImpl.java:101) ~[hibernate-core-6.2.13.Final.jar:6.2.13.Final]
+	at org.springframework.orm.jpa.JpaTransactionManager.doCommit(JpaTransactionManager.java:561) ~[spring-orm-6.0.13.jar:6.0.13]
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.processCommit(AbstractPlatformTransactionManager.java:743) ~[spring-tx-6.0.13.jar:6.0.13]
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.commit(AbstractPlatformTransactionManager.java:711) ~[spring-tx-6.0.13.jar:6.0.13]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.commitTransactionAfterReturning(TransactionAspectSupport.java:660) ~[spring-tx-6.0.13.jar:6.0.13]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:410) ~[spring-tx-6.0.13.jar:6.0.13]
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119) ~[spring-tx-6.0.13.jar:6.0.13]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.0.13.jar:6.0.13]
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137) ~[spring-tx-6.0.13.jar:6.0.13]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.0.13.jar:6.0.13]
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:135) ~[spring-data-jpa-3.1.5.jar:3.1.5]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.0.13.jar:6.0.13]
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97) ~[spring-aop-6.0.13.jar:6.0.13]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.0.13.jar:6.0.13]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:244) ~[spring-aop-6.0.13.jar:6.0.13]
+	at jdk.proxy2/jdk.proxy2.$Proxy128.deleteByName(Unknown Source) ~[na:na]
+	at de.telran.g_280323_m_be_shop.service.jpa.JpaCustomerService.deleteByName(JpaCustomerService.java:71) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578) ~[na:na]
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:343) ~[spring-aop-6.0.13.jar:6.0.13]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:699) ~[spring-aop-6.0.13.jar:6.0.13]
+	at de.telran.g_280323_m_be_shop.service.jpa.JpaCustomerService$$SpringCGLIB$$0.deleteByName(<generated>) ~[classes/:na]
+	at de.telran.g_280323_m_be_shop.controllers.CustomerController.deleteCustomerByName(CustomerController.java:68) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205) ~[spring-web-6.0.13.jar:6.0.13]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150) ~[spring-web-6.0.13.jar:6.0.13]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.0.13.jar:6.0.13]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884) ~[spring-webmvc-6.0.13.jar:6.0.13]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797) ~[spring-webmvc-6.0.13.jar:6.0.13]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.0.13.jar:6.0.13]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1081) ~[spring-webmvc-6.0.13.jar:6.0.13]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974) ~[spring-webmvc-6.0.13.jar:6.0.13]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011) ~[spring-webmvc-6.0.13.jar:6.0.13]
+	at org.springframework.web.servlet.FrameworkServlet.doDelete(FrameworkServlet.java:936) ~[spring-webmvc-6.0.13.jar:6.0.13]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:596) ~[tomcat-embed-core-10.1.15.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.0.13.jar:6.0.13]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.15.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.15.jar:10.1.15]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.0.13.jar:6.0.13]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.13.jar:6.0.13]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.0.13.jar:6.0.13]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.13.jar:6.0.13]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.0.13.jar:6.0.13]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.13.jar:6.0.13]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:340) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at java.base/java.lang.Thread.run(Thread.java:1623) ~[na:na]
+
+2023-11-15T02:01:41.733+02:00  INFO 7928 --- [main] d.t.g.G280323MBeShopApplication          : Starting G280323MBeShopApplication using Java 20 with PID 7928 (F:\MoarStudies\g_280323_m_be_shop\target\classes started by User2013 in F:\MoarStudies\g_280323_m_be_shop)
+2023-11-15T02:01:41.736+02:00  INFO 7928 --- [main] d.t.g.G280323MBeShopApplication          : No active profile set, falling back to 1 default profile: "default"
+2023-11-15T02:01:43.217+02:00  INFO 7928 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-11-15T02:01:43.324+02:00  INFO 7928 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 93 ms. Found 3 JPA repository interfaces.
+2023-11-15T02:01:44.485+02:00  INFO 7928 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-11-15T02:01:44.497+02:00  INFO 7928 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-11-15T02:01:44.498+02:00  INFO 7928 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.15]
+2023-11-15T02:01:44.674+02:00  INFO 7928 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-11-15T02:01:44.675+02:00  INFO 7928 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2766 ms
+2023-11-15T02:01:45.045+02:00  INFO 7928 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-15T02:01:45.139+02:00  INFO 7928 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.13.Final
+2023-11-15T02:01:45.144+02:00  INFO 7928 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-11-15T02:01:45.795+02:00  INFO 7928 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-11-15T02:01:45.859+02:00  INFO 7928 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-11-15T02:01:46.137+02:00  INFO 7928 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@51ed2f68
+2023-11-15T02:01:46.142+02:00  INFO 7928 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-11-15T02:01:46.232+02:00  WARN 7928 --- [main] org.hibernate.dialect.Dialect            : HHH000511: The 5.5.30 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 5.7.0. Check the community dialects project for available legacy versions.
+2023-11-15T02:01:47.543+02:00  INFO 7928 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2023-11-15T02:01:47.545+02:00  INFO 7928 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-11-15T02:01:48.431+02:00  INFO 7928 --- [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2023-11-15T02:01:48.725+02:00  WARN 7928 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-15T02:01:49.327+02:00  INFO 7928 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-11-15T02:01:49.341+02:00  INFO 7928 --- [main] d.t.g.G280323MBeShopApplication          : Started G280323MBeShopApplication in 8.616 seconds (process running for 9.399)
+2023-11-15T02:02:03.154+02:00  INFO 7928 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-15T02:02:03.156+02:00  INFO 7928 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-11-15T02:02:03.159+02:00  INFO 7928 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2023-11-15T02:03:02.044+02:00  INFO 7928 --- [http-nio-8080-exec-4] d.t.g.service.jpa.JpaCustomerService     : Запрошен покупатель с идентификатором 1.
+2023-11-15T02:03:02.044+02:00  WARN 7928 --- [http-nio-8080-exec-4] d.t.g.service.jpa.JpaCustomerService     : Запрошен покупатель с идентификатором 1.
+2023-11-15T02:03:02.045+02:00 ERROR 7928 --- [http-nio-8080-exec-4] d.t.g.service.jpa.JpaCustomerService     : Запрошен покупатель с идентификатором 1.
+2023-11-15T02:05:44.570+02:00  INFO 7928 --- [http-nio-8080-exec-7] d.t.g.service.jpa.JpaCustomerService     : Запрошен покупатель с идентификатором 1.
+2023-11-15T02:05:44.571+02:00  WARN 7928 --- [http-nio-8080-exec-7] d.t.g.service.jpa.JpaCustomerService     : Запрошен покупатель с идентификатором 1.
+2023-11-15T02:05:44.574+02:00 ERROR 7928 --- [http-nio-8080-exec-7] d.t.g.service.jpa.JpaCustomerService     : Запрошен покупатель с идентификатором 1.
+2023-11-15T02:08:26.252+02:00  WARN 7928 --- [http-nio-8080-exec-9] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported]
+2023-11-15T02:08:53.788+02:00  WARN 7928 --- [http-nio-8080-exec-2] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported]
+2023-11-15T02:08:59.005+02:00  WARN 7928 --- [http-nio-8080-exec-4] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MissingPathVariableException: Required URI template variable 'customerId' for method parameter type int is not present]
+2023-11-15T02:10:12.224+02:00  INFO 7640 --- [main] d.t.g.G280323MBeShopApplication          : Starting G280323MBeShopApplication using Java 20 with PID 7640 (F:\MoarStudies\g_280323_m_be_shop\target\classes started by User2013 in F:\MoarStudies\g_280323_m_be_shop)
+2023-11-15T02:10:12.228+02:00  INFO 7640 --- [main] d.t.g.G280323MBeShopApplication          : No active profile set, falling back to 1 default profile: "default"
+2023-11-15T02:10:14.047+02:00  INFO 7640 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-11-15T02:10:14.155+02:00  INFO 7640 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 88 ms. Found 3 JPA repository interfaces.
+2023-11-15T02:10:15.335+02:00  INFO 7640 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-11-15T02:10:15.347+02:00  INFO 7640 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-11-15T02:10:15.347+02:00  INFO 7640 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.15]
+2023-11-15T02:10:15.463+02:00  INFO 7640 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-11-15T02:10:15.464+02:00  INFO 7640 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3058 ms
+2023-11-15T02:10:15.798+02:00  INFO 7640 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-15T02:10:15.877+02:00  INFO 7640 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.13.Final
+2023-11-15T02:10:15.879+02:00  INFO 7640 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-11-15T02:10:16.284+02:00  INFO 7640 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-11-15T02:10:16.327+02:00  INFO 7640 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-11-15T02:10:16.575+02:00  INFO 7640 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@17134190
+2023-11-15T02:10:16.578+02:00  INFO 7640 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-11-15T02:10:16.674+02:00  WARN 7640 --- [main] org.hibernate.dialect.Dialect            : HHH000511: The 5.5.30 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 5.7.0. Check the community dialects project for available legacy versions.
+2023-11-15T02:10:17.941+02:00  INFO 7640 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2023-11-15T02:10:17.944+02:00  INFO 7640 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-11-15T02:10:18.759+02:00  INFO 7640 --- [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2023-11-15T02:10:19.049+02:00  WARN 7640 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-15T02:10:19.679+02:00  INFO 7640 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-11-15T02:10:19.690+02:00  INFO 7640 --- [main] d.t.g.G280323MBeShopApplication          : Started G280323MBeShopApplication in 8.363 seconds (process running for 9.107)
+2023-11-15T02:10:30.694+02:00  INFO 7640 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-15T02:10:30.695+02:00  INFO 7640 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-11-15T02:10:30.696+02:00  INFO 7640 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-11-15T02:10:30.742+02:00  WARN 7640 --- [http-nio-8080-exec-2] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MissingPathVariableException: Required URI template variable 'customerId' for method parameter type Integer is not present]
+2023-11-15T02:12:25.957+02:00  INFO 8728 --- [main] d.t.g.G280323MBeShopApplication          : Starting G280323MBeShopApplication using Java 20 with PID 8728 (F:\MoarStudies\g_280323_m_be_shop\target\classes started by User2013 in F:\MoarStudies\g_280323_m_be_shop)
+2023-11-15T02:12:25.962+02:00  INFO 8728 --- [main] d.t.g.G280323MBeShopApplication          : No active profile set, falling back to 1 default profile: "default"
+2023-11-15T02:12:27.676+02:00  INFO 8728 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-11-15T02:12:27.811+02:00  INFO 8728 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 114 ms. Found 3 JPA repository interfaces.
+2023-11-15T02:12:29.229+02:00  INFO 8728 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-11-15T02:12:29.242+02:00  INFO 8728 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-11-15T02:12:29.242+02:00  INFO 8728 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.15]
+2023-11-15T02:12:29.396+02:00  INFO 8728 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-11-15T02:12:29.397+02:00  INFO 8728 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3296 ms
+2023-11-15T02:12:29.697+02:00  INFO 8728 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-15T02:12:29.776+02:00  INFO 8728 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.13.Final
+2023-11-15T02:12:29.781+02:00  INFO 8728 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-11-15T02:12:30.223+02:00  INFO 8728 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-11-15T02:12:30.257+02:00  INFO 8728 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-11-15T02:12:30.573+02:00  INFO 8728 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@698d6d30
+2023-11-15T02:12:30.576+02:00  INFO 8728 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-11-15T02:12:30.672+02:00  WARN 8728 --- [main] org.hibernate.dialect.Dialect            : HHH000511: The 5.5.30 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 5.7.0. Check the community dialects project for available legacy versions.
+2023-11-15T02:12:31.991+02:00  INFO 8728 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2023-11-15T02:12:31.994+02:00  INFO 8728 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-11-15T02:12:32.735+02:00  INFO 8728 --- [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2023-11-15T02:12:33.009+02:00  WARN 8728 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-15T02:12:33.665+02:00  INFO 8728 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-11-15T02:12:33.674+02:00  INFO 8728 --- [main] d.t.g.G280323MBeShopApplication          : Started G280323MBeShopApplication in 8.571 seconds (process running for 9.258)
+2023-11-15T02:12:38.672+02:00  INFO 8728 --- [http-nio-8080-exec-4] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-15T02:12:38.672+02:00  INFO 8728 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-11-15T02:12:38.674+02:00  INFO 8728 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2023-11-15T02:16:16.298+02:00  INFO 9612 --- [main] d.t.g.G280323MBeShopApplication          : Starting G280323MBeShopApplication using Java 20 with PID 9612 (F:\MoarStudies\g_280323_m_be_shop\target\classes started by User2013 in F:\MoarStudies\g_280323_m_be_shop)
+2023-11-15T02:16:16.301+02:00  INFO 9612 --- [main] d.t.g.G280323MBeShopApplication          : No active profile set, falling back to 1 default profile: "default"
+2023-11-15T02:16:17.862+02:00  INFO 9612 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-11-15T02:16:18.024+02:00  INFO 9612 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 142 ms. Found 3 JPA repository interfaces.
+2023-11-15T02:16:19.608+02:00  INFO 9612 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-11-15T02:16:19.618+02:00  INFO 9612 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-11-15T02:16:19.619+02:00  INFO 9612 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.15]
+2023-11-15T02:16:19.760+02:00  INFO 9612 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-11-15T02:16:19.760+02:00  INFO 9612 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3336 ms
+2023-11-15T02:16:20.072+02:00  INFO 9612 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-15T02:16:20.137+02:00  INFO 9612 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.13.Final
+2023-11-15T02:16:20.139+02:00  INFO 9612 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-11-15T02:16:20.608+02:00  INFO 9612 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-11-15T02:16:20.648+02:00  INFO 9612 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-11-15T02:16:20.881+02:00  INFO 9612 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@13aed42b
+2023-11-15T02:16:20.882+02:00  INFO 9612 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-11-15T02:16:20.934+02:00  WARN 9612 --- [main] org.hibernate.dialect.Dialect            : HHH000511: The 5.5.30 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 5.7.0. Check the community dialects project for available legacy versions.
+2023-11-15T02:16:22.182+02:00  INFO 9612 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2023-11-15T02:16:22.186+02:00  INFO 9612 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-11-15T02:16:22.973+02:00  INFO 9612 --- [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2023-11-15T02:16:23.279+02:00  WARN 9612 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-15T02:16:23.812+02:00  INFO 9612 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-11-15T02:16:23.825+02:00  INFO 9612 --- [main] d.t.g.G280323MBeShopApplication          : Started G280323MBeShopApplication in 8.387 seconds (process running for 9.094)
+2023-11-15T02:16:29.005+02:00  INFO 9612 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-15T02:16:29.005+02:00  INFO 9612 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-11-15T02:16:29.006+02:00  INFO 9612 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-11-15T02:16:29.030+02:00  WARN 9612 --- [http-nio-8080-exec-2] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' is not supported]
+2023-11-15T02:16:35.242+02:00  INFO 9612 --- [http-nio-8080-exec-4] d.t.g.service.jpa.JpaCustomerService     : Запрошен покупатель с идентификатором 4.
+2023-11-15T02:16:35.243+02:00  WARN 9612 --- [http-nio-8080-exec-4] d.t.g.service.jpa.JpaCustomerService     : Запрошен покупатель с идентификатором 4.
+2023-11-15T02:16:35.244+02:00 ERROR 9612 --- [http-nio-8080-exec-4] d.t.g.service.jpa.JpaCustomerService     : Запрошен покупатель с идентификатором 4.
+2023-11-15T02:17:45.883+02:00  WARN 9612 --- [http-nio-8080-exec-6] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported]
+2023-11-15T02:19:11.126+02:00  INFO 5376 --- [main] d.t.g.G280323MBeShopApplication          : Starting G280323MBeShopApplication using Java 20 with PID 5376 (F:\MoarStudies\g_280323_m_be_shop\target\classes started by User2013 in F:\MoarStudies\g_280323_m_be_shop)
+2023-11-15T02:19:11.131+02:00  INFO 5376 --- [main] d.t.g.G280323MBeShopApplication          : No active profile set, falling back to 1 default profile: "default"
+2023-11-15T02:19:12.943+02:00  INFO 5376 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-11-15T02:19:13.081+02:00  INFO 5376 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 116 ms. Found 3 JPA repository interfaces.
+2023-11-15T02:19:14.491+02:00  INFO 5376 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-11-15T02:19:14.501+02:00  INFO 5376 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-11-15T02:19:14.501+02:00  INFO 5376 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.15]
+2023-11-15T02:19:14.638+02:00  INFO 5376 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-11-15T02:19:14.639+02:00  INFO 5376 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3366 ms
+2023-11-15T02:19:14.947+02:00  INFO 5376 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-15T02:19:15.020+02:00  INFO 5376 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.13.Final
+2023-11-15T02:19:15.022+02:00  INFO 5376 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-11-15T02:19:15.434+02:00  INFO 5376 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-11-15T02:19:15.493+02:00  INFO 5376 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-11-15T02:19:15.740+02:00  INFO 5376 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4fbaa7f5
+2023-11-15T02:19:15.743+02:00  INFO 5376 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-11-15T02:19:15.816+02:00  WARN 5376 --- [main] org.hibernate.dialect.Dialect            : HHH000511: The 5.5.30 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 5.7.0. Check the community dialects project for available legacy versions.
+2023-11-15T02:19:17.164+02:00  INFO 5376 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2023-11-15T02:19:17.166+02:00  INFO 5376 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-11-15T02:19:17.952+02:00  INFO 5376 --- [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2023-11-15T02:19:18.180+02:00  WARN 5376 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-15T02:19:18.781+02:00  INFO 5376 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-11-15T02:19:18.792+02:00  INFO 5376 --- [main] d.t.g.G280323MBeShopApplication          : Started G280323MBeShopApplication in 8.471 seconds (process running for 9.139)
+2023-11-15T02:19:29.668+02:00  INFO 5376 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-15T02:19:29.668+02:00  INFO 5376 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-11-15T02:19:29.670+02:00  INFO 5376 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-11-15T02:19:29.691+02:00  WARN 5376 --- [http-nio-8080-exec-2] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' is not supported]
+2023-11-15T02:19:34.263+02:00  INFO 5376 --- [http-nio-8080-exec-4] d.t.g.service.jpa.JpaCustomerService     : Запрошен покупатель с идентификатором 4.
+2023-11-15T02:19:34.264+02:00  WARN 5376 --- [http-nio-8080-exec-4] d.t.g.service.jpa.JpaCustomerService     : Запрошен покупатель с идентификатором 4.
+2023-11-15T02:19:34.264+02:00 ERROR 5376 --- [http-nio-8080-exec-4] d.t.g.service.jpa.JpaCustomerService     : Запрошен покупатель с идентификатором 4.
